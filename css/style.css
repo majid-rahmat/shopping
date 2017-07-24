@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	margin-top: 10px;
+	background-color: transparent;
+    background-color:transparent !important; 
+}
+
+
+.title, .form-inline {
+	text-align: center;
+}
+
+.form-inline, .item-group {
+	margin-top: 20px;
+}
+
+body {
+	background-image: url("https://www.washingtonian.com/wp-content/uploads/2015/06/2015.06.16.groceryshopping-1215-994x663.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.inb {
+	display: inline-block;
+}
+
+.default-items, .added-items {
+	width: 50%;
+	display: inline-block;
+}
+
+.item-group {
+	text-align: center;
+}
+
+input[type=checkbox] {
+  transform: scale(1.75);
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.25em;
+}
+
+h1.title {
+	font-family: 'Courgette', cursive;
+	color: #FFF14A;
+	margin-bottom: 45px;
+	font-size:3.0em;
+	text-decoration: underline;
+}
+
+.btn  {
+	width: 75px;
+}
+
