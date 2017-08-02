@@ -52,9 +52,8 @@ table {
 }
 
 .jumbotron {
-	margin-top: 10px;
+	margin-top: 10;
 	background-color: transparent;
-    background-color:transparent !important; 
 }
 
 
@@ -66,27 +65,24 @@ table {
 	margin-top: 20px;
 }
 
-body {
-	background-image: url("https://www.washingtonian.com/wp-content/uploads/2015/06/2015.06.16.groceryshopping-1215-994x663.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
 }
 
 .inb {
 	display: inline-block;
 }
 
-.default-items, .added-items {
-	width: 50%;
-	display: inline-block;
-}
 
 .item-group {
 	text-align: center;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   transform: scale(1.75);
 }
 
@@ -99,7 +95,7 @@ h1.title {
 	font-family: 'Courgette', cursive;
 	color: #FFF14A;
 	margin-bottom: 45px;
-	font-size:3.0em;
+	font-size: 3.0em;
 	text-decoration: underline;
 }
 
@@ -107,3 +103,6 @@ h1.title {
 	width: 75px;
 }
 
+.line-through {
+	text-decoration: line-through;
+}
